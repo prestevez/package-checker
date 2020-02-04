@@ -1,6 +1,6 @@
 # package installer
 
-source("package_checker.R")
+source("https://raw.githubusercontent.com/prestevez/package-checker/master/package_checker.R")
 
 if(!is.null(not))
 {
@@ -40,4 +40,4 @@ if(victim_required){
 
 # All packages should now be installed
 
-source("package_checker.R")
+source("https://raw.githubusercontent.com/prestevez/package-checker/master/package_checker.R")
